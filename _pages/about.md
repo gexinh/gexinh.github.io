@@ -51,9 +51,12 @@ Research Experiences
 Projects
 ======
 * [[1]]() Data-synthesized Spatio-Temporal Denoising Autoencoder (DAT-DAE) [[code]](https://github.com/gexinh/ESI-DAE)
-* [[2]]() EEG-fMRI Multi-modal learning [[code]]()
-* [[3]]() EEG decodeing with FCSP features [[code]]()
-* [[4]]() EEG Source Imaging with fMRI priors [[code]]()  
+* [[2]]() EEG-fMRI Multi-modal learning [[code]](https://github.com/gexinh/ML-VAE)
+* [[3]]() EEG decodeing with filter bank common spatial pattern features [[code]](https://github.com/gexinh/EEG_decoding)
+* [[4]]() EEG Source Imaging with fMRI priors [[code]](https://github.com/gexinh/ESIBFP)  
+
+ <!-- <img src="/images/profile2.jpg" width = "10" height = "10" alt="test" align=center /> -->
+
 
 Teaching
 ======
