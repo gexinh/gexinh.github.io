@@ -38,11 +38,16 @@ Publications
 
 Research Experiences
 ======
-* Fall 2019: National High-tech R&D Program of China
+* Fall 2020:
+  * Topic: Solving Electromagnetice Source Localization via a Multi-label Classifier
+  * Keywords: ill-posed, extreme multi-label claasifier, graph-based label embedding, similarity measurement.
+  * Supervisor: Professor Wei Wu and  Professor Zhuliang Yu
+  
+* Fall 2019: Chinese National Natural Science Foundation Project
   * Topic: Solving EEG Inverse Problem with Deep Learning Framework
   * Keywords: ill-posed, denoising autoencoder, data synthesis, knowledge-driven, spatio-temporal decomposition, Bayesian facoter model.
   * Supervisor: Professor Wei Wu and  Professor Zhuliang Yu
-* Fall 2018: National High-tech R&D Program of China
+* Fall 2018: Chinese National Natural Science Foundation Project
   * Topic: Multi-modal Neural Signals Learning with Bayesian Deep Learning
   * Keywords: multi-view probabilistic model, deep generative model, variational inference, posterior regularization, nonparameteric eastimation.  
   * Supervisor: Professor Zhuliang Yu
