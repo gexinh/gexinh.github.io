@@ -38,6 +38,11 @@ Publications
 
 Research Experiences
 ======
+* Winter 2021:
+  * Topics: AI-driven Genomics Analysis for Digital Pathological Images
+  * Keywords: few-shot learning, self-supervised learning, multi-label classification, class imbalance, graph hierarchical inference 
+  * Supervisor: Dr. [Xiaodan Liang](https://lemondan.github.io/)
+
 * Fall 2020:
   * Topic: Solving Electromagnetice Source Localization via a Multi-label Classifier
   * Keywords: ill-posed, extreme multi-label claasifier, graph-based label embedding, similarity measurement.
@@ -47,10 +52,12 @@ Research Experiences
   * Topic: Solving EEG Inverse Problem with Deep Learning Framework
   * Keywords: ill-posed, denoising autoencoder, data synthesis, knowledge-driven, spatio-temporal decomposition, Bayesian facoter model.
   * Supervisor: Professor Wei Wu and  Professor Zhuliang Yu
+  
 * Fall 2018: Chinese National Natural Science Foundation Project
   * Topic: Multi-modal Neural Signals Learning with Bayesian Deep Learning
   * Keywords: multi-view probabilistic model, deep generative model, variational inference, posterior regularization, nonparameteric eastimation.  
   * Supervisor: Professor Zhuliang Yu
+  
 * Fall 2013: National College Students' Innovation Program
   * Topic: Detection and Recognition of Ground Targets for Quadrotor UAV
   * Keywords: unmanned aerial vehicle, support vector machine, histogram of oriented gradients, data augmentation, objective detection and tracking.
