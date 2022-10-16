@@ -1,0 +1,457 @@
+
+
+<!doctype html>
+<html lang="Ch" class="no-js">
+  <head>
+    
+
+<meta charset="utf-8">
+
+
+
+<!-- begin SEO -->
+
+
+
+
+
+
+
+
+
+<title>Deep Learning in Brain-Computer Interface - Gexin Huang’s Science Space</title>
+
+
+
+
+
+
+
+<meta property="og:locale" content="China">
+<meta property="og:site_name" content="Gexin Huang's Science Space">
+<meta property="og:title" content="Deep Learning in Brain-Computer Interface">
+
+
+  <link rel="canonical" href="http://localhost:4000/_pages/BCI/">
+  <meta property="og:url" content="http://localhost:4000/_pages/BCI/">
+
+
+
+
+
+
+
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  <script type="application/ld+json">
+    {
+      "@context" : "http://schema.org",
+      "@type" : "Person",
+      "name" : "Gexin Huang",
+      "url" : "http://localhost:4000",
+      "sameAs" : null
+    }
+  </script>
+
+
+
+
+
+
+<!-- end SEO -->
+
+
+<link href="http://localhost:4000/feed.xml" type="application/atom+xml" rel="alternate" title="Gexin Huang's Science Space Feed">
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="http://localhost:4000/assets/css/main.css">
+
+<meta http-equiv="cleartype" content="on">
+    
+
+<!-- start custom head snippets -->
+
+<link rel="apple-touch-icon" sizes="57x57" href="http://localhost:4000/images/apple-touch-icon-57x57.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="60x60" href="http://localhost:4000/images/apple-touch-icon-60x60.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="72x72" href="http://localhost:4000/images/apple-touch-icon-72x72.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="76x76" href="http://localhost:4000/images/apple-touch-icon-76x76.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="114x114" href="http://localhost:4000/images/apple-touch-icon-114x114.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="120x120" href="http://localhost:4000/images/apple-touch-icon-120x120.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="144x144" href="http://localhost:4000/images/apple-touch-icon-144x144.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="152x152" href="http://localhost:4000/images/apple-touch-icon-152x152.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="180x180" href="http://localhost:4000/images/apple-touch-icon-180x180.png?v=M44lzPylqQ">
+<link rel="icon" type="image/png" href="http://localhost:4000/images/favicon-32x32.png?v=M44lzPylqQ" sizes="32x32">
+<link rel="icon" type="image/png" href="http://localhost:4000/images/android-chrome-192x192.png?v=M44lzPylqQ" sizes="192x192">
+<link rel="icon" type="image/png" href="http://localhost:4000/images/favicon-96x96.png?v=M44lzPylqQ" sizes="96x96">
+<link rel="icon" type="image/png" href="http://localhost:4000/images/favicon-16x16.png?v=M44lzPylqQ" sizes="16x16">
+<link rel="manifest" href="http://localhost:4000/images/manifest.json?v=M44lzPylqQ">
+<link rel="mask-icon" href="http://localhost:4000/images/safari-pinned-tab.svg?v=M44lzPylqQ" color="#000000">
+<link rel="shortcut icon" href="/images/favicon.ico?v=M44lzPylqQ">
+<meta name="msapplication-TileColor" content="#000000">
+<meta name="msapplication-TileImage" content="http://localhost:4000/images/mstile-144x144.png?v=M44lzPylqQ">
+<meta name="msapplication-config" content="http://localhost:4000/images/browserconfig.xml?v=M44lzPylqQ">
+<meta name="theme-color" content="#ffffff">
+<link rel="stylesheet" href="http://localhost:4000/assets/css/academicons.css"/>
+
+<script type="text/x-mathjax-config"> MathJax.Hub.Config({ TeX: { equationNumbers: { autoNumber: "all" } } }); </script>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+</script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/latest.js?config=TeX-MML-AM_CHTML' async></script>
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        <button><div class="navicon"></div></button>
+        <ul class="visible-links">
+          <li class="masthead__menu-item masthead__menu-item--lg"><a href="http://localhost:4000/">Gexin Huang's Science Space</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="http://localhost:4000/blog-posts/">Blog Posts</a></li>
+          
+        </ul>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+    
+
+
+
+
+
+<div id="main" role="main">
+  
+
+
+  <div class="sidebar sticky">
+  
+
+
+
+<div itemscope itemtype="http://schema.org/Person">
+
+  <div class="author__avatar">
+    
+    	<img src="http://localhost:4000/images/profile2.jpg" class="author__avatar" alt="Gexin Huang">
+    
+  </div>
+
+  <div class="author__content">
+    <h3 class="author__name">Gexin Huang</h3>
+    <p class="author__bio">Pattern Recognition, Bayesian Deep Learning, Generative Model, and Multi-Modal learning</p>
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      
+      
+      
+      
+        <li><a href="mailto:auhuanggexin@mail.scut.edu.cn"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i> Email</a></li>
+      
+      
+       
+        <li><a href="https://www.researchgate.net/profile/Gexin_Huang"><i class="fab fa-fw fa-researchgate" aria-hidden="true"></i> ResearchGate</a></li>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+        <li><a href="https://github.com/gexinh"><i class="fab fa-fw fa-github" aria-hidden="true"></i> Github</a></li>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+        <li><a href="https://scholar.google.com/citations?user=Uh9kwTIAAAAJ&hl=zh-TW"><i class="fas fa-fw fa-graduation-cap"></i> Google Scholar</a></li>
+      
+      
+      
+      
+      
+    </ul>
+  </div>
+</div>
+
+  
+  </div>
+
+
+  <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Deep Learning in Brain-Computer Interface">
+    
+    
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 class="page__title" itemprop="headline">Deep Learning in Brain-Computer Interface
+</h1>
+          
+        
+        
+        
+        
+             
+        
+    
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        <h1 id="deep-learning-in-brain-computer-interface">Deep Learning in Brain-Computer Interface</h1>
+<h4 id="current-status--challenges-to-advance-the-field-forward">Current status &amp; challenges to advance the field forward</h4>
+
+<h1 id="what-is-brain-computer-interface">What is Brain-Computer Interface?</h1>
+<p>A Brain-Computer Interface (BCI) is a system that extracts and translates the brain activity patterns of a subject (humans or animals) into messages or commands for an interactive application. The brain activity patterns are signals obtained with Electroencephalography (EEG).</p>
+
+<p>The concept of controlling devices solely with our minds is nothing new. Science fiction and Hollywood movies have been known to depict this. Several studies and experiments have been conducted, such as <a href="https://medium.com/r/?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DwxIgdOlT2cY">monkeys controlling robotic arms</a> to feed itself, <a href="https://medium.com/r/?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DJyJj32MsAUo">controlling a wheelchair</a> and <a href="https://medium.com/r/?url=https%3A%2F%2Fmed.stanford.edu%2Fnews%2Fall-news%2F2017%2F02%2Fbrain-computer-interface-allows-fast-accurate-typing-by-people-with-paralysis.html">controlling cursors to type</a> about eight words per minute.</p>
+
+<p>Other than controlling devices, different applications and studies of BCIs are:</p>
+
+<ul>
+  <li>sleep patterns</li>
+  <li>epilepsy</li>
+  <li>attention deficit hyperactivity disorder (ADHD)</li>
+  <li>disorders of consciousness</li>
+  <li>depth of anaesthesia</li>
+  <li>fatigue and mental workload</li>
+  <li>mood</li>
+  <li>emotions</li>
+</ul>
+
+<h1 id="challenges-of-bci-applications">Challenges of BCI applications</h1>
+
+<p>For BCI systems to work, it is dependant on the ability to decipher brain activity. But a single EEG data can contain artefact, interference from power lines, measurement and environmental noise. It also contains interference from subject’s ongoing thoughts. These artefact/noise mask the actual target signal.</p>
+
+<p>Our brain can produce different signals during an experiment due to fatigue, mood and even subtle body movements such as blinking of eyes. As a result, a classifier trained on a particular user might generalise poorly to data recorded at a different time on the same individual.</p>
+
+<p>EEG signals are highly user-specific, as such, most BCI systems are calibrated for each user. In <a href="https://medium.com/r/?url=https%3A%2F%2Farxiv.org%2Fpdf%2F1803.09702.pdf">research by Georgia Institute of Technology</a>, they obtained 38% accuracy on unseen subjects (not part of the training dataset) and 75% on seen subjects.</p>
+
+<p><a href="https://medium.com/r/?url=https%3A%2F%2Fwww.sciencedirect.com%2Fscience%2Farticle%2Fabs%2Fpii%2FS0923596516300832">Hajinoroozi et al.</a> tested both within-subject and cross-subject predictions, and the results showed that cross-subject models always performed worse than within-subject models.</p>
+
+<p>In data collection, the ground truth is usually determined on what the subject has to perform. Therefore it can be tricky as it is impossible to know what the subject is thinking or where the subject is precisely focusing on.</p>
+
+<p>BCI is particularly challenging because the theory is shared with multiple disciplines:</p>
+
+<ul>
+  <li>neuroscience</li>
+  <li>signal processing</li>
+  <li>machine learning</li>
+  <li>computational intelligence</li>
+  <li>cognitive science</li>
+  <li>physics</li>
+</ul>
+
+<p>These challenges show why rolling out BCI systems to the mass market is a monumental challenge.</p>
+
+<h1 id="why-deep-learning-for-bci-applications">Why Deep Learning for BCI applications</h1>
+
+<p>In recent years, deep learning has shown significant performance in various tasks; it has proven to outperform “traditional” machine learning approaches that use handcrafted features.</p>
+
+<p>Decoding the brain electrical activity with high variability and non-stationary noise into a meaningful signal is difficult. These difficulties lead to the use of machine learning algorithms to solve BCI applications.</p>
+
+<p>Deep learning has the ability to extract features and learn from hierarchical representations from high dimension data and has lead to many real-world applications in the area of computer vision and natural language processing. Given its effectiveness in other fields, deep learning seems promising to learn from raw EEG data to extract better features to improve performance and robustness.</p>
+
+<p>An EEG data set is high dimensional, deep learning models with a high number of parameters might be able to learn the raw EGG signals directly.</p>
+
+<h1 id="common-deep-learning-architectures">Common deep learning architectures</h1>
+
+<p>In order to tackle the challenges in BCI application, researchers work on to improve extraction of essential features from EEG signals and to build models that can generalise better.</p>
+
+<h2 id="restricted-boltzmann-machine">Restricted Boltzmann machine</h2>
+
+<p>A restricted Boltzmann machine (RBM) learns the probability distribution of the input data based on a gradient ascent of the log-likelihood of the training data. Deep Belief Network (DBN) composed of three RBMs, where RBM can be stacked and trained in a deep learning manner.</p>
+
+<h2 id="recurrent-neural-network">Recurrent neural network</h2>
+
+<p>Given that EEG data has a temporal structure, frequencies over time, the recurrent neural network (RNN) is suitable. RNN model sequential data via recursive, which is unfolding the RNN in time to form a feed-forward neural network to apply backpropagation.</p>
+
+<p>Long short term memory (LSTM) is an RNN architecture that is composed of memory blocks which use gating units with a self-connected memory cell. LSTM solves the vanishing gradient problem that traditional RNNs suffer.</p>
+
+<h2 id="convolutional-neural-network">Convolutional neural network</h2>
+
+<p>Recent findings show the effectiveness of the convolutional neural network (CNN) for processing time series because they are able to learn the most relevant features from raw data. CNN can extend to higher dimensions to learn features required for the task. A convolutional layer is usually comprised of convolution, non-linear activation, and pooling.</p>
+
+<p>CNN has outperformed previous BCI competition winners on multiple tasks. However, an ensemble of SVMs obtained slightly better performance than the CNN approach. Several studies explored the idea of combining DBN with CNN and RNN with CNN. Combining DBN with CNN produce promising results.</p>
+
+<p><a href="https://medium.com/r/?url=https%3A%2F%2Fonlinelibrary.wiley.com%2Fdoi%2Fpdf%2F10.1002%2Fhbm.23730">Schirrmeister et al.</a> explored the effect of shallow and deep CNN models. They show that shallower (5 layers) fully convolutional models perform better than deep models.</p>
+
+<p><a href="https://medium.com/r/?url=https%3A%2F%2Fwww.frontiersin.org%2Farticles%2F10.3389%2Ffnins.2017.00310%2Ffull">Zhang et al.</a> evaluated that depth ranging from 2 to 10 outperform deeper models in terms of accuracy, precision, F-measure and G-mean.</p>
+
+<p>Due to the small number of training samples available for BCI, many research works suggest those shallower architectures with much fewer parameters are proved to be more useful.</p>
+
+<h1 id="regularisation">Regularisation</h1>
+
+<p>As mentioned in the challenges of BCI applications, EEG signals are highly variable. EEG signals can differ significantly between subjects and even within the same subject, as the EEG contains interferences from ongoing brain activity and measurement noise.</p>
+
+<p>These types of noise suggest the use of regularisation in order to keep the weights of the network small to reduce overfitting. The common regularisation methods for neural networks are L1 and L2, which add a penalty to the weights according to their magnitude and sign. Dropout technique is very commonly used as well.</p>
+
+<p>These regularisation techniques generally improve the performance slightly and most research used at least one regularisation techniques.</p>
+
+<h1 id="current-state-of-the-art">Current state-of-the-art</h1>
+
+<p>The current performance of deep learning models is unclear whether it can outperform traditional processing techniques. This is because unlike natural image where there is the ImageNet dataset as a benchmark dataset, EEG does not have a benchmark dataset.</p>
+
+<p>In BCI, many different tasks and different datasets were used in research, the results reported are highly bais to individual research for that particular dataset. Reporting performance metrics and methodology are varied between each study, lacking a standardised reporting methodology.</p>
+
+<p>Reproducibility is crucial to moving a field forward; this has been seen in the computer vision community where technological advances very quickly. With the availability of open-source dataset and the sharing of codes, the computer vision community achieve state-of-the-art performance suitable for real-world applications.</p>
+
+<p>Unfortunately for BCI studies, many researchers use private dataset, and they do not release their codes publicly. Acquiring data is more expensive and annotated data requires subject matter experts contributions.</p>
+
+<h1 id="problems-with-deep-learning-in-bci-applications">Problems with deep learning in BCI applications</h1>
+
+<p>As training a deep learning model generally requires a large training dataset. Unlike the computer vision research community, where a vast amount of data is available; limited BCI data available pose a challenge to advance the field forward. High-quality data is also challenging to acquire, augmenting datasets or use of generative adversarial networks might be adopted.</p>
+
+<p>Deep learning models are great in memorising dataset, but given that EEG has low signals to noise ratio, models might memorise noise data. As a result, the performance is greatly affected even with various regularisation techniques.</p>
+
+<p><a href="https://medium.com/r/?url=https%3A%2F%2Farxiv.org%2Fpdf%2F1904.01002.pdf">Zhang et al.</a> highlighted that deep learning models are vulnerable to adversarial attacks. The consequence could range from merely user confusion and frustration, to significantly reducing the user’s quality of life, and even to hurting the user into danger on purpose.</p>
+
+<p>Generally, deep learning models are regarded as black boxes where it does not provide insight into neurophysiological phenomena underlying a decision. This makes clinicians and end-users uncomfortable, especially when understanding how and why the model produces an output might be critical to make informed clinical choices. A study by <a href="https://medium.com/r/?url=https%3A%2F%2Fwww.sciencedirect.com%2Fscience%2Farticle%2Fpii%2FS0165027016302333">Sturm et al.</a> uses Layer-wise Relevance Propagation to transform decisions into heatmaps indicating each data point’s relevance for the outcome of the decision.</p>
+
+<p>Deep learning models can take a long time to train; thus, it would take a long time to calibrate on new users and before each usage. We cannot expect new users to spend hours recording their brain patterns on different tasks, and cannot allow BCI users to wait every time they want to use the system.</p>
+
+<h1 id="conclusion">Conclusion</h1>
+
+<p>Researchers need to develop more robust and consistent algorithms that can be easily trained and deployed. Algorithms must be able to work with small training samples, handle noisy signals, generalise well on users over different time as well as mood and generalise well over different users.</p>
+
+<p>Many studies are evaluated offline on a small number of subjects, but for actual BCI applications to work machine learning need to work in real-time.</p>
+
+<p>Deep learning advancement is lagging due to the lack of data and code sharing; progress can be much faster when researchers openly share dataset and codes.</p>
+
+<p>There are many problems that need to be addressed before BCI applications can be rolled out to the mass market.</p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+
+
+      </footer>
+
+      
+
+      
+
+
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+
+    <div class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+<a href="/sitemap/">Sitemap</a>
+<!-- end custom footer snippets -->
+
+        
+
+<div class="page__footer-follow">
+  <ul class="social-icons">
+    
+    
+    
+    
+      <li><a href="http://github.com/gexinh"><i class="fab fa-github" aria-hidden="true"></i> GitHub</a></li>
+    
+    
+    <li><a href="http://localhost:4000/feed.xml"><i class="fa fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2021 Gexin Huang. Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://github.com/academicpages/academicpages.github.io">AcademicPages</a>, a fork of <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    <script src="http://localhost:4000/assets/js/main.min.js"></script>
+
+
+
+
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', '', 'auto');
+  ga('send', 'pageview');
+</script>
+
+
+
+
+
+
+  </body>
+</html>
+

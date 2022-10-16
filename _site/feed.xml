@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-01-20T16:21:12+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Gexin Huang’s Science Space</title><subtitle>personal description</subtitle><author><name>Gexin Huang</name><email>auhuanggexin@mail.scut.edu.cn</email></author><entry><title type="html">Reading List about Bayesian Deep Learning</title><link href="http://localhost:4000/posts/2020/11/reading-list/" rel="alternate" type="text/html" title="Reading List about Bayesian Deep Learning" /><published>2020-11-01T00:00:00+08:00</published><updated>2020-11-01T00:00:00+08:00</updated><id>http://localhost:4000/posts/2020/11/bayesian-deep-learining</id><content type="html" xml:base="http://localhost:4000/posts/2020/11/reading-list/">&lt;p&gt;This is a reading list about bayesian deep learning&lt;/p&gt;
+
+&lt;h1 id=&quot;headings-are-cool&quot;&gt;Headings are cool&lt;/h1&gt;
+
+&lt;h2 id=&quot;arent-headings-cool&quot;&gt;Aren’t headings cool?&lt;/h2&gt;</content><author><name>Gexin Huang</name><email>auhuanggexin@mail.scut.edu.cn</email></author><category term="machine learning" /><category term="deep learning" /><category term="Bayesian" /><summary type="html">This is a reading list about bayesian deep learning</summary></entry><entry><title type="html">Reading List about Bayesian Deep Learning</title><link href="http://localhost:4000/posts/2020/08/reading-list/" rel="alternate" type="text/html" title="Reading List about Bayesian Deep Learning" /><published>2020-08-01T00:00:00+08:00</published><updated>2020-08-01T00:00:00+08:00</updated><id>http://localhost:4000/posts/2020/08/reading-list</id><content type="html" xml:base="http://localhost:4000/posts/2020/08/reading-list/">&lt;p&gt;This is a reading collection about bayesian deep learning (BDL) and Deep Bayesian Learning (DBL). (last updated: 2020/10)&lt;/p&gt;
+
+&lt;h1 id=&quot;fundamental-books&quot;&gt;Fundamental books&lt;/h1&gt;
+&lt;ul&gt;
+  &lt;li&gt;PRML Pattern Recognition and Machine Learning, Bishop 2006&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://scholar.google.com.tw/scholar_url?url=https://research.google/pubs/pub38136.pdf&amp;amp;hl=zh-TW&amp;amp;sa=X&amp;amp;ei=PeAHYOa0HL3EywSi74rAAQ&amp;amp;scisig=AAGBfm0x2K8q8nf6AuaaZezSUpn5-CtgyA&amp;amp;nossl=1&amp;amp;oi=scholarr&quot;&gt;Machine Learning: A Probabilistic Perspective&lt;/a&gt;, Murphy 2012&lt;/li&gt;
+  &lt;li&gt;Bayesian Learning for Neural Networks, Neal 1996&lt;/li&gt;
+  &lt;li&gt;Deep learning, Goodfellow 2016&lt;/li&gt;
+  &lt;li&gt;PGM Probabilistic Graphical Models: Principles and Techniques, Koller and Friedman 2009&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;core&quot;&gt;Core&lt;/h1&gt;
+&lt;p&gt;### core reseacrch areas
+    * Bayesian Deep Learning in Approximation Inference
+    * Representation Learning
+    * Deep Genarative models
+    * MCMC methods&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;1-expectation-maximization-em-and-variational-inference-vi&quot;&gt;1 Expectation Maximization (EM) and Variational Inference (VI):&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;PRML Chapter 9, 10.1-10.6&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;Variational Inference: A Review for Statisticians, Blei et al. 2016&lt;/li&gt;
+  &lt;li&gt;An Introduction to Variational Methods for Graphical Models, Jordan et al. 1999
+Amortized Variational Inference and Reparameterization Trick:&lt;/li&gt;
+  &lt;li&gt;Auto-Encoding Variational Bayes, Kingma and Welling 2013&lt;/li&gt;
+  &lt;li&gt;Stochastic Backpropagation and Approximate Inference in Deep Generative Models, Rezende et al. 2014&lt;/li&gt;
+  &lt;li&gt;The Generalized Reparameterization Gradient, Ruiz et al. 2016&lt;/li&gt;
+  &lt;li&gt;Inference Suboptimality in Variational Autoencoders, Cremer et al. 2018&lt;/li&gt;
+  &lt;li&gt;Forward Amortized Inference for Likelihood-Free Variational Marginalization, Ambrogioni et al. 2018&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;11-hierarchical-variational-methods&quot;&gt;1.1 Hierarchical Variational Methods:&lt;/h3&gt;
+&lt;p&gt;• An Auxiliary Variational Method, Agakov and Barber 2004
+• Hierarchical Variational Models, Ranganath et al. 2015
+• Auxiliary Deep Generative Models, Maaløe et al. 2016
+• Markov Chain Monte Carlo and Variational Inference: Bridging the Gap, Salimans et al. 2014
+• Variational Inference with Normalizing Flows, Rezende and Mohamed 2015
+• The Variational Gaussian Process, Tran et al. 2015&lt;/p&gt;
+
+&lt;h3 id=&quot;12-expectation-propagation-ep&quot;&gt;1.2 Expectation Propagation (EP):&lt;/h3&gt;
+&lt;p&gt;• PRML Chapter 10.7
+• PGM Chapter 11.4
+• Proofs of Alpha Divergence Properties (lecture note), Cevher 2008
+• Divergence Measures and Message Passing, Minka 2005&lt;/p&gt;
+
+&lt;h3 id=&quot;13-implicit-inference&quot;&gt;1.3 Implicit Inference&lt;/h3&gt;
+&lt;p&gt;• Adversarially Learned Inference, Dumoulin et al. 2016
+• Adversarial Variational Bayes: Unifying Variational Autoencoders and Generative Adversarial Networks, Mescheder et al. 2017
+• Variational Inference using Implicit Distributions, Huszar 2017&lt;/p&gt;
+
+&lt;h2 id=&quot;21-deep-generative-models-dgms&quot;&gt;2.1 Deep Generative Models (DGMs)&lt;/h2&gt;
+
+&lt;h3 id=&quot;deep-state-space-models-for-tiem-series&quot;&gt;Deep State Space Models (for tiem series)&lt;/h3&gt;
+&lt;p&gt;• A Recurrent Latent Variable Model for Sequential Data, Chung et al. 2015
+• Deep Kalman Filters, Krishnan et al. 2015
+• Filtering Variational Objectives, Maddison et al. 2017
+• Variational Sequential Monte Carlo, Naesseth et al. 2017
+• Auto-Encoding Sequential Monte Carlo, Le et al. 2017
+• Variational Bi-LSTMs, Shabanian et al. 2017&lt;/p&gt;
+
+&lt;h3 id=&quot;variational-autoencoders&quot;&gt;Variational Autoencoders&lt;/h3&gt;
+&lt;p&gt;• Importance Weighted Autoencoders, Burda et al. 2015
+• Reinterpreting Importance-Weighted Autoencoders, Cremer et al. 2017
+• Sequentialized Sampling Importance Resampling and Scalable IWAE, Huang and Courville 2018
+• Tighter Variational Bounds are Not Necessarily Better, Rainforth et al. 2018
+• On Nesting Monte Carlo Estimators, Rainforth et al. 2018
+• Debiasing Evidence Approximations: On Importance-weighted Autoencoders and Jackknife Variational Inference, Nowozin 2018&lt;/p&gt;
+
+&lt;h3 id=&quot;normalizing-flows&quot;&gt;Normalizing Flows&lt;/h3&gt;
+&lt;p&gt;• MCTME Chapter 4
+• Variational Inference with Normalizing Flows, Rezende and Mohamed 2015
+• Improving Variational Inference with Inverse Autoregressive Flow, Kingma et al. 2016
+• Improving Variational Auto-Encoders using Householder Flow, Tomczak and Welling 2016
+• Improving Variational Auto-Encoders using Convex Combination Linear Inverse Autoregressive Flow, Tomczak and Welling 2017
+• Sylvester Normalizing Flows for Variational Inference, Berg et al. 2018
+• Neural Autoregressive Flows, Huang et al. 2018
+• Density Estimation using Real NVP, Dinh et al. 2016
+• Glow: Generative Flow with Invertible 1x1 Convolutions, Kingma and Dhariwal 2018
+• Neural Ordinary Differential Equations, Chen et al. 2018&lt;/p&gt;
+
+&lt;h3 id=&quot;transfer-learning-and-semisupervised-learning&quot;&gt;Transfer Learning and Semisupervised Learning&lt;/h3&gt;
+&lt;p&gt;• Semi-Supervised Learning with Deep Generative Models, Kingma et al. 2014
+• Towards a Neural Statistician, Edwards and Storkey 2016
+• One-Shot Generalization in Deep Generative Models, Rezende et al. 2016
+• Uncertainty in Multitask Transfer Learning, Lacoste et al. 2018
+• Conditional Neural Processes, Garnelo et al. 2018
+• Neural Processes, Garnelo et al. 2018&lt;/p&gt;
+
+&lt;h3 id=&quot;representation-learning&quot;&gt;Representation Learning&lt;/h3&gt;
+&lt;p&gt;• Ladder Variational Autoencoders, Sønderby et al. 2016
+• PixelVAE: A Latent Variable Model for Natural Images, Gulrajani et al. 2016
+• Variational Lossy Autoencoder, Chen et al. 2016
+• Generating Sentences from a Continuous Space, Bowman et al. 2015
+• Generating Sentences by Editing Prototypes, Guu et al. 2017
+• The Variational Fair Autoencoder, Louizos et al. 2015
+• VAE with a VampPrior, Tomczak and Welling 2017
+• Hierarchical VampPrior Variational Fair Auto-Encoder, Botros and Tomczak 2018
+• Neural Relational Inference for Interacting Systems, Kipf et al. 2018
+• Hyperspherical Variational Auto-Encoders, Davidson et al. 2018
+• Neural Scene Representation and Rendering, Eslami et al. 2018&lt;/p&gt;
+
+&lt;h3 id=&quot;bayesian-compression&quot;&gt;Bayesian Compression&lt;/h3&gt;
+&lt;p&gt;• Bayesian Compression for Deep Learning, Louizos et al. 2017
+• Improved Bayesian Compression, Federici et al. 2017
+• Variational Dropout Sparsifies Deep Neural Networks, Molchanov et al. 2017
+• Learning Sparse Neural Networks through L0 Regularization, Louizos et al. 2018
+• Structured Variational Learning of Bayesian Neural Networks with Horseshoe Priors, Ghosh et al. 2018&lt;/p&gt;
+
+&lt;h2 id=&quot;bayesian-deep-neural-networks-mcmc-approaches&quot;&gt;Bayesian Deep Neural Networks (MCMC Approaches)&lt;/h2&gt;
+&lt;p&gt;• Bayesian Learning via Stochastic Gradient Langevin Dynamics, Welling and Teh 2011
+• Bayesian Posterior Sampling via Stochastic Gradient Fisher Scoring, Ahn et al. 2012
+• Stochastic Gradient Hamiltonian Monte Carlo, Chen et al. 2014
+• Bayesian Sampling Using Stochastic Gradient Thermostats, Ding et al. 2014
+• Preconditioned Stochastic Gradient Langevin Dynamics for Deep Neural Networks, Li et al 2015
+• Entropy-SGD: Biasing Gradient Descent Into Wide Valleys, Chaudhari et al. 2017
+• Adversarial Distillation of Bayesian Neural Network Posteriors, Wang et al. 2018
+Deep neural networks = Gaussian Process
+• Priors for Infinite Network, Neal 1994
+• Bayesian Learning for Neural Networks, Neal 1995
+• Dropout as a Bayesian Approximation: Representing Model Uncertainty in Deep Learning, Gal and Ghahramani 2015
+• Avoiding Pathologies in Very Deep Networks, Duvenaud et al. 2016
+• Deep Neural Networks as Gaussian Processes, Lee et al. 2018
+SGD / Approximate Inference / PAC-Bayes
+• PAC-Bayesian Theory Meets Bayesian Inference, Germain et al. 2016
+• Stochastic Gradient Descent as Approximate Bayesian Inference, Mandt et al. 2017
+• Stochastic Gradient Descent Performs Variational Inference, Converges to Limit Cycles for Deep Networks, Chaudhari and Soatto 2017
+• Generalization Bounds of SGLD for Non-convex Learning: Two Theoretical Viewpoints, Mou et al. 2017
+• Entropy-SGD Optimizes the Prior of a PAC-Bayes Bound: Generalization properties of Entropy-SGD and data-dependent priors, Dziugaite and Roy 2017
+A Bayesian Perspective on Generalization and Stochastic Gradient Descent, Smith and Le 2018&lt;/p&gt;</content><author><name>Gexin Huang</name><email>auhuanggexin@mail.scut.edu.cn</email></author><category term="machine learning" /><category term="deep learning" /><category term="Bayesian" /><summary type="html">This is a reading collection about bayesian deep learning (BDL) and Deep Bayesian Learning (DBL). (last updated: 2020/10)</summary></entry><entry><title type="html">Note about Inverse Problem</title><link href="http://localhost:4000/posts/2019/11/reading-list/" rel="alternate" type="text/html" title="Note about Inverse Problem" /><published>2019-11-01T00:00:00+08:00</published><updated>2019-11-01T00:00:00+08:00</updated><id>http://localhost:4000/posts/2019/11/Inverse-problem</id><content type="html" xml:base="http://localhost:4000/posts/2019/11/reading-list/">&lt;p&gt;This is a literature review about electromagnetic source imaging (ESI) inverse problem.&lt;/p&gt;
+
+&lt;h1 id=&quot;headings-are-cool&quot;&gt;Headings are cool&lt;/h1&gt;
+
+&lt;h2 id=&quot;arent-headings-cool&quot;&gt;Aren’t headings cool?&lt;/h2&gt;</content><author><name>Gexin Huang</name><email>auhuanggexin@mail.scut.edu.cn</email></author><category term="machine learning" /><category term="deep learning" /><category term="Bayesian" /><summary type="html">This is a literature review about electromagnetic source imaging (ESI) inverse problem.</summary></entry><entry><title type="html">Note about Bayesian Machine Learning</title><link href="http://localhost:4000/posts/2018/06/reading-list/" rel="alternate" type="text/html" title="Note about Bayesian Machine Learning" /><published>2018-06-01T00:00:00+08:00</published><updated>2018-06-01T00:00:00+08:00</updated><id>http://localhost:4000/posts/2018/06/bayesian-machine-learning</id><content type="html" xml:base="http://localhost:4000/posts/2018/06/reading-list/">&lt;p&gt;This is a learning note about Bayesian Machine Learning. The bedrock Probabilistic Graphic Model (PGMs) and Bayesian Inference&lt;/p&gt;
+
+&lt;h1 id=&quot;road-map&quot;&gt;Road Map&lt;/h1&gt;
+&lt;ul&gt;
+  &lt;li&gt;Posterior is feasible
+    &lt;ul&gt;
+      &lt;li&gt;Maximum a posteriori estimation&lt;/li&gt;
+      &lt;li&gt;Expectation Maximization (EM) approximation&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Posterior is intractable
+    &lt;ul&gt;
+      &lt;li&gt;Sampling methods:
+        &lt;ul&gt;
+          &lt;li&gt;Importanced sampling&lt;/li&gt;
+          &lt;li&gt;M-H sampling&lt;/li&gt;
+          &lt;li&gt;Monte-Carlo Markov Chain (MCMC) sampling&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Approximation inference:
+        &lt;ul&gt;
+          &lt;li&gt;Variational inference
+            &lt;ul&gt;
+              &lt;li&gt;Mean-field&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+          &lt;li&gt;Expectation propagation&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;em&quot;&gt;EM&lt;/h2&gt;
+
+&lt;p&gt;EM&lt;/p&gt;</content><author><name>Gexin Huang</name><email>auhuanggexin@mail.scut.edu.cn</email></author><category term="machine learning" /><category term="deep learning" /><category term="Bayesian" /><summary type="html">This is a learning note about Bayesian Machine Learning. The bedrock Probabilistic Graphic Model (PGMs) and Bayesian Inference</summary></entry></feed>
