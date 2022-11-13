@@ -46,8 +46,8 @@ Publications
     <a href="https://https://neuroimage.usc.edu/brainstorm/DatasetMedianNerveNeuromag">[data]</a>
 
  * [[2]]() GeneFormer: Associating Biological Prior Relationships with Linguistic Knowledge for Explainable Pan-caner Genetic Multi-Label Classification
-    <br>Gexin Huang, ChenFei Wu, MingJie Li, and XiaoDan Liang.
-    <br>[preparing for CVPR]<br>
+    <br>Gexin Huang, ChenFei Wu, MingJie Li, Tao Tang, Shen Zhao, Xiaojun Chang, Ying Sun, and XiaoDan Liang.
+    <br>[Under review on CVPR 2023]<br>
     <a href="/">[link]</a>
     <a href="https://github.com/gexinh/Omics">[code]</a>
     <a href="https://www.cancer.gov/about-nci/organization/ccg/research/structural-genomics/tcga">[data]</a>
