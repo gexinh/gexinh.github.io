@@ -12,9 +12,8 @@ redirect_from:
 About  [<font size=3>[Code]</font>](https://github.com/gexinh) [<font size=3>[CV]</font>](files/cv_gexin.pdf) [<font size=3>[Transcripts]</font>](files/transcripts.pdf)  
 ======
 Currently, I am a PhD student supervised by [Xiaoxiao Li](https://tea.ece.ubc.ca/) at [the Trusted and Efficient AI (TEA) lab](https://tea.ece.ubc.ca/), [University of British Columbia](https://www.ubc.ca/). 
-During 2022-2023, I was a research assistant supervisored by [Xiaodan Liang](https://lemondan.github.io/) at the Human Cyber Physical Intelligence Integration ([HCP](https://www.sysu-hcp.net/)) Lab, [Sun Yat-Sen University](https://www.sysu.edu.cn/index.htm) (Guangzhou, China). 
-Before that, I received master's Degree in Pattern Recognition and Intelligent Systems at [South China University of Technology](https://www.scut.edu.cn/en/main.htm) (Guangzhou, China). 
-Since 2018, I have been co-advised by <a href="https://scholar.google.com/citations?user=oAUB9cQAAAAJ&hl=en">Zhuliang Yu</a> and [Wei Wu](https://scholar.google.com/citations?hl=zh-TW&user=HKmFkdwAAAAJ) at the Center for Brain-Computer Interfaces and Information Processing (director: [Yuanqing Li](https://scholar.google.com.sg/citations?user=wN3v1coAAAAJ&hl=en)).
+
+During 2022-2023, I was a research assistant supervisored by [Xiaodan Liang](https://lemondan.github.io/) at the Human Cyber Physical Intelligence Integration ([HCP](https://www.sysu-hcp.net/)) Lab, [Sun Yat-Sen University](https://www.sysu.edu.cn/index.htm) (Guangzhou, China). Before that, I received master's Degree in Pattern Recognition and Intelligent Systems at [South China University of Technology](https://www.scut.edu.cn/en/main.htm) (Guangzhou, China). Since 2018, I have been co-advised by <a href="https://scholar.google.com/citations?user=oAUB9cQAAAAJ&hl=en">Zhuliang Yu</a> and [Wei Wu](https://scholar.google.com/citations?hl=zh-TW&user=HKmFkdwAAAAJ) at the Center for Brain-Computer Interfaces and Information Processing (director: [Yuanqing Li](https://scholar.google.com.sg/citations?user=wN3v1coAAAAJ&hl=en)).
 
 My general research interests lie in Bayesian learning and machine learning techniques for interdisciplinary tasks. In particular, I am passionate about the intersection of deep learning and Bayesian statistics, geerative model, explainability, and graph representation learning. 
 
