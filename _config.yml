@@ -6,11 +6,11 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-locale                   : "China"
+locale                   : "en-CA"
 title                    : "Gexin Huang's Science Space"
 title_separator          : "-"
 name                     : &name "Gexin Huang"
-description              : &description "personal description"
+description              : &description "Gexin Huang is a Ph.D. researcher at UBC working on multimodal learning, vision-language models, generative models, and computational pathology."
 url                      : "https://gexinh.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "gexinh/gexinh.github.io"
@@ -82,11 +82,12 @@ analytics:
 author:
   name             : "Gexin Huang"
   avatar           : "profile2.jpg"
-  bio              : "Pattern Recognition, Bayesian Deep Learning, Generative Model, and Multi-Modal learning"
-  employer         :
+  bio              : "Multimodal Learning · Vision–Language Models · Generative Models · Computational Pathology"
+  employer         : "University of British Columbia"
+  location         : "Vancouver, Canada"
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=Uh9kwTIAAAAJ&hl=zh-TW"
-  email            :  "auhuanggexin@mail.scut.edu.cn"
+  email            :  "gexinh@student.ubc.ca"
   researchgate     : "https://www.researchgate.net/profile/Gexin_Huang"
   uri              :
   bitbucket        :
