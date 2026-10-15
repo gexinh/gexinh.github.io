@@ -1,10 +1,13 @@
 # main links links
 main:
-  - title: "Experience"
-    url: /#research-industry-experience
+  - title: "Research Focus"
+    url: /#research-focus
 
   - title: "Publications"
     url: /#publications
+
+  - title: "Academic Service"
+    url: /#academic-service
 
   - title: "Blog Posts"
     url: /blog-posts/
